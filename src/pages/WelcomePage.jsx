@@ -1,4 +1,4 @@
-import '../syles/WelcomePage.css'
+import '../styles/WelcomePage.css'
 function WelcomePage() {
  
 
