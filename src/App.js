@@ -1,6 +1,6 @@
 
 import './App.css';
-import HeaderPage from './components/Header-Page';
+import HeaderPage from './components/HeaderPage';
 import WelcomePage from './pages/WelcomePage';
 
 function App() {
