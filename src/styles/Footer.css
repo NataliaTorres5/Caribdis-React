@@ -1,4 +1,4 @@
-
+/*Normalizar codigo*/
 *,
 *::before,
 *::after {
@@ -6,12 +6,57 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*background general*/
 .footer{
   background-color: var(--shallowocean);
   padding: 1rem;
-  padding-inline: 1rem;
+  
   font-family: poppins;
   display: flex;
   flex-direction: column;
+}
+
+.container{
+  padding-inline: 0.5rem;
+}
+
+.footer-brand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #0f1035;
+  margin-bottom: 50px;
+}
+
+/*logo Caribdis*/
+.logo-footer img{
+  width: 10rem;
+  height: 10rem;
+}
+/*Spcial handlers*/
+.social-list{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 30px;
+
+}
+
+.social-list > li {
+  margin: 30px;
+}
+
+.socialh {
+  color:  #0f1035;
+}
+.socialh:hover{
+  color: hsl(5, 100%, 69%);
+}
+
+/*Link Box*/
+
+.footer-link-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
