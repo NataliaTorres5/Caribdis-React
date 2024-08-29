@@ -1,13 +1,9 @@
 import '../styles/WelcomePage.css'
-import Footer from '../components/Footer'
-import HeaderPage from '../components/HeaderPage'
-
 function WelcomePage() {
  
 
 return (
     <>
-    <HeaderPage/>
     <div className="hero-container">
         <div className="Hero-Background">
             <div className="Hero-CallToAction">
@@ -18,7 +14,6 @@ return (
             </div>
         </div>
     </div>
-    <Footer/>
     </>
 
 
