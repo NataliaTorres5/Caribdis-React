@@ -1,15 +1,12 @@
-
-import './App.css';
-import HeaderPage from './components/HeaderPage';
-import WelcomePage from './pages/WelcomePage';
+import "./App.css";
+import WelcomePage from "./pages/WelcomePage";
+import WebsiteLayout from "./layouts/WebsiteLayout";
 
 function App() {
-
-
   return (
-    <HeaderPage/>,
-    <WelcomePage/>
-    
+    <WebsiteLayout>
+      <WelcomePage />
+    </WebsiteLayout>
   );
 }
 
