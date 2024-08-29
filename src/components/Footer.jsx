@@ -124,19 +124,12 @@ export default function Footer() {
               <h3 className="footerh3">Mi Cuenta</h3>
               <br className="br" />
               <div className="infocontent">
-               
-
-                <a href="https://maps.app.goo.gl/zkKfBxcnyBV4C9Ct7">
-                  Perfil
-                </a>
+                <a href="https://maps.app.goo.gl/zkKfBxcnyBV4C9Ct7">Perfil</a>
               </div>
               <div className="infocontent">
-                
-
                 <a href=".com">Carrito</a>
               </div>
               <div className="infocontent">
-               
                 <a href=".com">
                   <span class="footer-link-text">Nuevos productos</span>
                 </a>
@@ -146,33 +139,50 @@ export default function Footer() {
               <h3 className="footerh3">Horarios de apertura</h3>
               <br className="br" />
               <div className="infocontent">
-                <p><strong>Lun-Vie</strong> 8:00 am - 6:00 pm</p>
-                
-
+                <p>
+                  <strong>Lun-Vie</strong> 8:00 am - 6:00 pm
+                </p>
               </div>
               <div className="infocontent">
-              <p><strong>Sab-Dom</strong> 8:00 am - 8:00 pm</p>
+                <p>
+                  <strong>Sab-Dom</strong> 8:00 am - 8:00 pm
+                </p>
               </div>
             </div>
             <div className="infobox">
               <h3 className="footerh3">Blog</h3>
               <br className="br" />
               <div className="infocontent newsletter">
-              <input type="email" name="email" required="" placeholder="Email" className="newsletter-input"/>
-              <button type="submit" class="btn btn-primary">Subscribete</button>
+                <input
+                  type="email"
+                  name="email"
+                  required=""
+                  placeholder="Email"
+                  className="newsletter-input"
+                />
+                <button type="submit" class="btn btn-primary">
+                  Subscribete
+                </button>
               </div>
-                
             </div>
           </div>
-
-          
         </div>
-
-        
+      </div>
+      <div className="footer-bottom">
+        <div className="container">
+          <p className="copyright">
+            © 2024{" "}
+            <a href="com" class="copyright-link">
+              Natalia M Torres M
+            </a>
+            . Todos los derechos reservados
+          </p>
+        </div>
       </div>
 
       
-      <div className="footer-box"></div>
+
     </div>
+
   );
 }
