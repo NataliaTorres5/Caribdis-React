@@ -5,19 +5,6 @@ import '../styles/Header.css'
 
 export default function HeaderPage() {
 
-const overlay = document.querySelector("[data-overlay]");
-const navOpenBtn = document.querySelector("[data-nav-open-btn]");
-const navbar = document.querySelector("[data-navbar]");
-const navCloseBtn = document.querySelector("[data-nav-close-btn]");
-
-const navElems = [overlay, navOpenBtn, navCloseBtn];
-
-for (let i = 0; i < navElems.length; i++) {
-  navElems[i].addEventListener("click", function () {
-    navbar.classList.toggle("active");
-    overlay.classList.toggle("active");
-  });
-}
 
   return (
     <div><header class="header" data-header>
@@ -64,7 +51,7 @@ for (let i = 0; i < navElems.length; i++) {
          
           <li>
             <a href="./signup-in.html" class="nav-action-btn">
-              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+              
               <a href="./signup-in.html" class="nav-action-text">Ingreso / Registro</a>
             </a>
           </li>
