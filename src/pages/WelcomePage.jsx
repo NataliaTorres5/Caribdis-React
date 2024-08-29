@@ -1,13 +1,14 @@
 import '../styles/WelcomePage.css'
 import Footer from '../components/Footer'
 import HeaderPage from '../components/HeaderPage'
+
 function WelcomePage() {
  
 
 return (
     <>
     <HeaderPage/>
-    <div className="Hero-Container">
+    <div className="hero-container">
         <div className="Hero-Background">
             <div className="Hero-CallToAction">
                 <h1 className="H1 Hero-Title">Bienvenido <strong>El Oceano te llama</strong></h1>

@@ -9,15 +9,15 @@
 /*background general*/
 .footer{
   background-color: var(--shallowocean);
-  padding: 1rem 5rem 1rem 5rem;
+  padding: 1rem 5rem 0rem 5rem;
   
   font-family: poppins;
   display: flex;
   flex-direction: column;
 }
 
-.container{
-  padding-inline: 0.5rem;
+.footer:nth-last-child(n){
+  padding: 0rem;
 }
 
 .footer-brand{
@@ -116,3 +116,19 @@
   justify-items: center;
   padding: 15px!important;
    }
+.footer-bottom{
+  background: var(--deepocean);
+  padding-block: 20px;
+  width: 100%;
+}
+  
+.copyright {
+  text-align: center;
+  color: var(--white);
+}
+
+.copyright  >a { 
+  color: var(--bittersweet);
+  text-decoration: none;
+
+}
