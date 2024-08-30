@@ -1,11 +1,14 @@
 import "./App.css";
 import WelcomePage from "./pages/WelcomePage";
 import WebsiteLayout from "./layouts/WebsiteLayout";
+import SignInSignUpPage from "./components/SignInSignUpPage";
+
 
 function App() {
   return (
     <WebsiteLayout>
-      <WelcomePage />
+      { /* <WelcomePage /> */}
+      <SignInSignUpPage />
     </WebsiteLayout>
   );
 }

@@ -1,20 +1,18 @@
+.dropdown-icon{
+    display: flex;
+    padding: 5px;
+    margin-right: 25px;
+}
+
 .dropdown-menu{
 background-color: rgba(250, 250, 250, 0);
     border: none;
     transition: 5s ease-in-out;
-
 }
 
-.bi-person-circle::before{
-    color: var(--deepocean)
-}
 
 
 .bi-person-circle:hover{
-    color: var(--bittersweet)
-}
-
-.bi-person-circle.open{
     color: var(--bittersweet)
 }
 
@@ -26,6 +24,8 @@ background-color: rgba(250, 250, 250, 0);
     margin: 2px;
     background-color: var(--cultured);
     border-radius: 8px;
+    margin-top: 25px;
+    transform: translate(-80px, 70px);
 }
 
 
