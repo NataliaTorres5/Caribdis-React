@@ -11,3 +11,20 @@ for (let i = 0; i < navElems.length; i++) {
     overlay.classList.toggle("active");
   });
 }
+
+/*
+
+<Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Usuarios
+        
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href=".com">Action</Dropdown.Item>
+        <Dropdown.Item href=".com">Another action</Dropdown.Item>
+        <Dropdown.Item href=".com">Something else</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>*/
+
+/*welcome page card*/ 
