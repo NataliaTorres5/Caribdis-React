@@ -1,7 +1,7 @@
 import "./App.css";
 import WelcomePage from "./pages/WelcomePage";
 import WebsiteLayout from "./layouts/WebsiteLayout";
-import SignInSignUpPage from "./components/SignInSignUpPage";
+import SignInSignUpPage from "./pages/SignInSignUpPage";
 
 
 function App() {
