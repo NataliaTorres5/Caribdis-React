@@ -7,7 +7,7 @@ function HeaderDropDown() {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
+    <div className="dropdown-icon">
       <button className="dropdown-menu" onClick={toggleDropdown}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

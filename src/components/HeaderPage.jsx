@@ -39,8 +39,10 @@ function HeaderPage() {
                 </a>
               </li>
             </ul>
-            <HeaderDropDown />
+            
           </nav>
+
+          <HeaderDropDown />
         </div>
         <div className="lowerHeader">
           <div>
