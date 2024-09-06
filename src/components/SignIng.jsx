@@ -3,7 +3,7 @@ import React from 'react'
 export default function SignIng() {
   return (
     <>
-
+ {/* Sign In   */ }  
             <div className="  box__form box--signin">
           <form action="#" className="form-sign" id="form2">
             <h2 className="form__title">Ingresa</h2>
