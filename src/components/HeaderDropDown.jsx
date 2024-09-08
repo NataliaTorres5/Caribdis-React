@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../styles/HeaderDropDown.css'
+import {Link as LinkRouter} from 'react-router-dom'
 function HeaderDropDown() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,9 +28,8 @@ function HeaderDropDown() {
 
       {isOpen && (
         <ul className="dropdown-item-box">
-          <span className="d-item d-item-1"> <a href=".">Ingresar</a></span>
-         <hr className="d-item-hr" />
-          <span className="d-item d-item-2"><a href=".">Registrarse</a></span>
+          <span className="d-item d-item-1"> <LinkRouter to="/signinsignup">Ingresar</LinkRouter></span>
+        
 
         </ul>
       )}
