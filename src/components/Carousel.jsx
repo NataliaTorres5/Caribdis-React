@@ -1,36 +1,48 @@
-import React from 'react'
-//para blogs 
+import React from "react";
+import "../styles/Carousel.css";
+import {Link as LinkRouter} from 'react-router-dom'
 
-function Carousel(props) {
+//para blogs
 
-   const items= props.data
+function Carousel() {
+  const items = [
+    { src: 'https://i.im.ge/2024/09/08/fWLXMF.tortugaMarina-flotando.jpeg', title: "Animales", link: '/animals' },
+    { src: 'https://i.im.ge/2024/09/08/fWLuJX.Plushie1.png', title: "Productos", link: '/store' },
+    { src: 'https://i.im.ge/2024/09/08/fWLrE9.Foca1.png', title: "Visitanos", link: '/visit' },
+  ];
 
- const range =4;  
+  
+  
 
+  const itemView = (item) => {
 
-
+    let imgu = (item.src)
+    
+  
    
+   return(   <>
+      
+    <div className="item-home">
+      <img className="hcard-img " src={imgu} alt={item.title} />
+      <p className="hcard-p">{item.title} </p>
+      <LinkRouter className="hcard-link btn" to={item.link}>Saber más</LinkRouter>
+    </div>
 
-    const itemView = (items) => ( //lo vuelvo funcion para que sea dinamico   no estaitco
 
-        <div className="item">
-            <img src={items.url} alt={items.title} />
-            <p>{items.title} </p>
-            <a href={items.link}>Saber más</a>
-        </div>
-    )
+</>)
+
+  };
+
+
 
   return (
-    <div>
-
-        <div className="slide">
-
-            {
-                items.slice(0, range).map(itemView)
-            }
-
-        </div>
-    </div>
-  )
+    <>
+      <div className="Carousel-segment"> 
+        {items.length > 0 && ( // Only render if items has elements
+          <div className="slide-home">{items.map(itemView)}</div>
+        )}
+      </div>
+    </>
+  );
 }
-export default  Carousel
+export default Carousel;
