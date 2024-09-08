@@ -1,15 +1,18 @@
 import React from "react";
 import CaribdisLogo from "../media/img/CaribdisLogo.png";
 import HeaderDropDown from "./HeaderDropDown";
+import {Link as LinkRouter} from 'react-router-dom'
 
 /*import person from "../media/icons/person-bounding-box.svg";*/
 import "../styles/Header.css";
 
-function HeaderPage() {
+function HeaderPage(props) {
+
+  
   return (
     <div>
       <header className="header">
-        <div className="container">
+        <div className="container-header">
           <a href=".com" className="logo">
             <img
               src={CaribdisLogo}
@@ -22,21 +25,21 @@ function HeaderPage() {
           <nav className="navbar" data-navbar>
             <ul className="navbar-list">
               <li className="navbar-item">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/' className="navbar-link">
                   Inicio
-                </a>
+                </LinkRouter>
               </li>
 
               <li className="navbar-item">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/blog' className="navbar-link">
                   Blog
-                </a>
+                </LinkRouter>
               </li>
 
               <li className="navbar-item">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/contactus' className="navbar-link">
                   Contacto
-                </a>
+                </LinkRouter>
               </li>
             </ul>
             
@@ -48,21 +51,21 @@ function HeaderPage() {
           <div>
             <ol className="lowerContainer">
               <li className="navbar-item header2">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/visit' className="navbar-link">
                   Acuario
-                </a>
+                </LinkRouter>
               </li>
 
               <li className="navbar-item header2">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/animals' className="navbar-link">
                   Animales
-                </a>
+                </LinkRouter>
               </li>
 
               <li className="navbar-item header2">
-                <a href=".com" className="navbar-link">
+                <LinkRouter to='/store' className="navbar-link">
                   Tienda
-                </a>
+                </LinkRouter>
               </li>
             </ol>
           </div>
