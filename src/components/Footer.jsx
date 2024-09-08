@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-top section">
-        <div className="container">
+        <div className="container-footer ">
           <div className="footer-brand">
             <div className="logo-footer">
               <img src={CaribdisLogo} alt="caribdis-logo" />
