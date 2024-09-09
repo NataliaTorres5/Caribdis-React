@@ -1,11 +1,11 @@
 import React from "react";
-import Carousel from "../components/Carousel";
+
 
 function AnimalPage() {
   return (
-    <div>
-      AnimalPage
-      <Carousel />
+    
+<div>
+<img src="https://i.im.ge/2024/09/08/fW6Hp0.New-opening-1200-x-200-px-500-x-200-px.png" alt="under construction" />
     </div>
   );
 }
