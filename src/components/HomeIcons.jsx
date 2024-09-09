@@ -7,45 +7,6 @@ import  service4 from '../media/img/service-4.png'
 
 function HomeIcons() {
 
-  /*
-  const icons = [
-    {
-      svg: 'service1.png',
-      title: "ENVIO GRATIS",
-      texto: "Para ordenes por encima de $150",
-    },
-    {
-      svg: 'http://www.w3.org/2000/svg',
-      title: "PAGO RÁPIDO",
-      texto: "100 seguro",
-    },
-    {
-      svg: "https://drive.google.com/file/d/1MpqZrB7rXFe57IUADF56UVq9ia0nbJI2",
-      title: "DEVOLUCIÓN GRATUITA",
-      texto: "Dentro de 30 días",
-    },
-    {
-      svg: "https://drive.google.com/file/d/1MpqZrB7rXFe57IUADF56UVq9ia0nbJI2",
-      title: "24/7 ASISTENCIA",
-      texto: "Necesitas ayuda?",
-    },
-  ];
-
-  console.log(HomeIcons);
-
-  const iconView = (icon) => {
-    return (
-      <>
-        <div>
-          <img className="hicon-img" src={icon.svg} alt={icon.texto} />
-        </div>
-        <div>
-          <h3 className="hicon-title">{icon.title} </h3>
-          <p className="hicon-text"> {icon.texto} </p>
-        </div>
-      </>
-    );
-  };*/
 
   return (
     <>

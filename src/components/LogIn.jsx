@@ -13,7 +13,7 @@ export default function LogIn() {
         <input type="text" placeholder="Apellido" className="input-box" />
         <input type="email" placeholder="Email" className="input-box" />
         <input type="password" placeholder="Contraseña" className="input-box" />
-        <button className="btn">Registrate</button>
+        <button className="btn-regist">Registrate</button>
       </form>
     </div>
   </>

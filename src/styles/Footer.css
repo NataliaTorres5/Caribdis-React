@@ -13,7 +13,7 @@
   font-family: poppins;
   display: flex;
   flex-direction: column;
-  margin-top: 9rem;
+  
 }
 
 .footer:nth-last-child(n){
