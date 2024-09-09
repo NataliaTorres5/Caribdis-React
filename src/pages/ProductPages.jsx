@@ -1,8 +1,14 @@
 import React from 'react'
+import ProductCards from '../components/ProductCards'
+import Productbanner from '../components/ProductBanner'
 
 function ProductPages() {
   return (
-    <div>ProductPages</div>
+    <>
+<Productbanner/>
+<ProductCards/>
+    
+    </>
   )
 }
 
