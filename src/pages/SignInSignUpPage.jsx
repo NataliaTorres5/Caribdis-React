@@ -12,26 +12,19 @@ export default function SignInSignUpPage() {
         setIsActive(!isActive);
         setIsForm(!isForm);
 
-        
-
-
-
-
 };
     return (
-        <div>
+        <div className="fondo-formulario
+        ">
 
             <div className="cointainer-signin">
 
 
                 <div className="overlay box">
 
-                    <button onClick={toggleOverlay}>
+                    <button className="btn-sign " onClick={toggleOverlay}>
                        {isForm ? 'Registro' : 'Ingresa'}
-                        
                           </button>
-
-
 {isActive ? ( 
 
 <SignIng/>
@@ -40,23 +33,9 @@ export default function SignInSignUpPage() {
 
 <LogIn/>
 ) }
-
-
                 </div>
-
-
-
-
-            </div>
-    
-    
-    
-    
-    
+            </div>  
         </div>
-      )
-
-    
-
+      )  
   }
 
