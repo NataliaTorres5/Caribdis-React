@@ -5,7 +5,7 @@ export default function LogIn() {
   return (
     <>     
         
-        {/* Sign Up / Log ip */ }  
+        {/* Sign Up / Log in */ }  
     <div className="box__form box--signup">
       <form action="#" className="form-sign" id="form1">
         <h2 className="form__title">Registrate</h2>
